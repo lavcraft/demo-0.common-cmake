@@ -6,7 +6,7 @@
 # by autotools and used in many Linux distributions.
 #
 # Use GNU install directories
-include(GNUInstallDirs)
+#include(GNUInstallDirs)
 if(NOT INSTALL_RUNTIME_DIR)
   set(INSTALL_RUNTIME_DIR "${CMAKE_INSTALL_BINDIR}")
 endif()
